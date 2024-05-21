@@ -11,7 +11,6 @@ const estado = reactive({
     { titulo: 'Estudar ES6', finalizada: false, },
     { titulo: 'Estudar SASS', finalizada: false, },
     { titulo: 'Academia', finalizada: true, },
-    { titulo: 'Ler livros', finalizada: false, },
   ],
 });
 
