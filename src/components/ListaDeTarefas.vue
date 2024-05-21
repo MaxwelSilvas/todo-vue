@@ -11,9 +11,6 @@ const props = defineProps(['tarefas']);
                 {{ tarefa.titulo }}
             </label>
         </li>
-        <li class="list-group-item" v-if="props.tarefas.filter(t => !t.finalizada).length === 0">
-            Não existem tarefas pendentes
-        </li>
     </ul>
 </template>
 
